@@ -6,7 +6,10 @@ Author: Yolanda Jimenez
 Author URI: http://geekpurple.com/Plantilla_Wordpress
 Version: 1.0
 */
-@import url(/css/bootstrap-theme.min.css);
-@import url(/css/bootstrap.min.css);
-body {
-  background: red; }
+
+@import '../css/bootstrap-theme.min.css';
+@import '../css/bootstrap.min.css';
+
+body{
+  background: red;
+}
