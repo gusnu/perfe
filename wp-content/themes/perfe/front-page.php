@@ -2,11 +2,14 @@
 <?php get_header(); ?>
 <!-- Contenido de página de inicio -->
 <?php if ( have_posts() ) : the_post(); ?>
-  <section>
+  <section class="container">
     <h1><?php the_title(); ?></h1>
     <?php the_content(); ?>
 
 
+  </section>
+  <section class="container">
+    hola
   </section>
 <?php endif; ?>
 <!-- Archivo de barra lateral por defecto -->
