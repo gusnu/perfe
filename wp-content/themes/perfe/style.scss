@@ -440,6 +440,9 @@ textarea {
 
 body{
   font-family: 'Apercu';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
 }
 
 
@@ -457,10 +460,15 @@ body{
         color: black;
         text-transform: uppercase;
         font-size: 1em;
+        &:hover{
+          text-decoration: underline;
+
+        }
       }
     }
   }
 }
+
 
 .navbar .navbar-brand{
   color: black;
@@ -471,4 +479,70 @@ body{
   height: 100px;
   padding-left: 50px;
 padding-top: 50px;
+}
+pre{
+  background-color: transparent;
+  border: none;
+  font-family: 'Apercu', 'helvetica Neue', sans-serif !important;
+}
+.projects ul.projects{
+  font-family: 'Apercu', 'helvetica Neue', sans-serif !important;
+}
+
+
+h2#parrafo-cabecera{
+
+    font-size: 175%;
+    line-height: 126%;
+
+}
+#inicio{
+  .col-md-10.col-md-offset-1{
+       top: -150px;
+     }
+}
+
+.menu-menu-1-container {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.navbar-toggle{
+  background-color: #000;
+  .icon-bar{
+    background-color: #fff;
+  }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  h2#parrafo-cabecera{
+        margin-top: 91px;
+      padding: 0px 106px;
+  }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
 }

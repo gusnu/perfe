@@ -380,7 +380,9 @@ textarea {
   /* 2 */ }
 
 body {
-  font-family: 'Apercu'; }
+  font-family: 'Apercu';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .menu-menu-1-container ul {
   padding-right: 50px; }
@@ -395,6 +397,8 @@ body {
       color: black;
       text-transform: uppercase;
       font-size: 1em; }
+      .menu-menu-1-container ul li a:hover {
+        text-decoration: underline; }
 
 .navbar .navbar-brand {
   color: black;
@@ -405,3 +409,40 @@ body {
   height: 100px;
   padding-left: 50px;
   padding-top: 50px; }
+
+pre {
+  background-color: transparent;
+  border: none;
+  font-family: 'Apercu', 'helvetica Neue', sans-serif !important; }
+
+.projects ul.projects {
+  font-family: 'Apercu', 'helvetica Neue', sans-serif !important; }
+
+h2#parrafo-cabecera {
+  font-size: 175%;
+  line-height: 126%; }
+
+#inicio .col-md-10.col-md-offset-1 {
+  top: -150px; }
+
+.menu-menu-1-container {
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 3px; }
+
+.navbar-toggle {
+  background-color: #000; }
+  .navbar-toggle .icon-bar {
+    background-color: #fff; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  h2#parrafo-cabecera {
+    margin-top: 91px;
+    padding: 0px 106px; } }
+/* Large Devices, Wide Screens */

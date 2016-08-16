@@ -23,7 +23,7 @@
       </article>
 
     <?php endwhile; ?>
-    
+
     <div class="pagination">
       <span class="in-left"><?php next_posts_link('« Entradas antiguas'); ?></span>
       <span class="in-right"><?php previous_posts_link('Entradas más recientes »'); ?></span>
