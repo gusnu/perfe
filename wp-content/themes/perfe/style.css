@@ -425,23 +425,48 @@ h2#parrafo-cabecera {
 #inicio .col-md-10.col-md-offset-1 {
   top: -150px; }
 
-.menu-menu-1-container {
-  font-size: 17px;
-  color: black;
-  font-weight: bold;
-  letter-spacing: 3px; }
-
 .navbar-toggle {
   background-color: #000; }
   .navbar-toggle .icon-bar {
     background-color: #fff; }
 
+.projects ul.projects li.project h3, .projects-page ul.projects li.project h3 {
+  margin-bottom: 0;
+  color: black;
+  font-size: 23px;
+  font-weight: bold; }
+
+.short-description {
+  position: relative;
+  top: -160px;
+  font-size: 23px; }
+
+.projects ul.projects li.project, .projects-page ul.projects li.project {
+  margin: 0; }
+
+#foto {
+  background-image: url(); }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .menu-menu-1-container {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: relative;
+    top: 60px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
+  .short-description {
+    left: 33px; }
+
+  .projects ul.projects li.project h3, .projects-page ul.projects li.project h3 {
+    padding-left: 35px; }
+
   h2#parrafo-cabecera {
     margin-top: 91px;
     padding: 0px 106px; } }

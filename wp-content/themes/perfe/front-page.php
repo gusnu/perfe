@@ -12,29 +12,25 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 
+        <?php
+        // WP_Query arguments
+        $args = array (
+          'pagename'               => 'proyectos',
+        );
 
-    <?php
-    // WP_Query arguments
-    $args = array (
-      'pagename'               => 'proyectos',
-    );
+        // The Query
+        $query = new WP_Query( $args );
 
-    // The Query
-    $query = new WP_Query( $args );
+        if ( $query->have_posts() ) :
+        while ( $query->have_posts() ) : $query->the_post();
+          the_content();
+        endwhile;
+        endif;
 
-    if ( $query->have_posts() ) :
-    while ( $query->have_posts() ) : $query->the_post();
-      the_content();
-    endwhile;
-    endif;
-
-     ?>
-       </div>
+         ?>
+    </div>
   </div>
-
 </section>
-
-
 
 <!-- Archivo de barra lateral por defecto -->
 <?php get_sidebar(); ?>
