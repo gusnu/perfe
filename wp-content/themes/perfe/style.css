@@ -444,8 +444,58 @@ h2#parrafo-cabecera {
 .projects ul.projects li.project, .projects-page ul.projects li.project {
   margin: 0; }
 
-#foto {
-  background-image: url(); }
+section#quienes-1 {
+  margin-top: 150px;
+  margin-bottom: 150px; }
+  section#quienes-1 p {
+    font-size: 30px;
+    margin-bottom: 50px; }
+  section#quienes-1 img {
+    margin-bottom: 60px; }
+
+#camilo {
+  background-image: url("../perfe/images/n_06.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #camilo h1 {
+    color: white;
+    font-size: 125px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0px;
+    text-align: center; }
+
+#datos-camilo, #datos-francisco {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  #datos-camilo p, #datos-francisco p {
+    font-size: 27px; }
+  #datos-camilo .redes, #datos-francisco .redes {
+    font-size: 21px; }
+    #datos-camilo .redes a, #datos-francisco .redes a {
+      color: inherit; }
+
+#francisco {
+  background-image: url("../perfe/images/n_08.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #francisco h1 {
+    color: white;
+    font-size: 125px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0px;
+    text-align: center; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */

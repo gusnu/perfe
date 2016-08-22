@@ -41,6 +41,7 @@ body {
   margin: 0;
 }
 
+
 /* HTML5 display definitions
    ========================================================================== */
 
@@ -554,8 +555,74 @@ h2#parrafo-cabecera {
 .projects ul.projects li.project, .projects-page ul.projects li.project {
   margin: 0;
 }
-#foto{
-  background-image: url()
+
+//pagina quienes somos
+
+section#quienes-1{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  p{
+    font-size:30px;
+    margin-bottom:50px;
+  }
+  img{
+    margin-bottom:60px;
+  }
+}
+
+#camilo{
+  background-image: url('../perfe/images/n_06.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1{
+    color: white;
+    font-size: 125px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0px;
+    text-align: center;
+ }
+
+}
+#datos-camilo,#datos-francisco{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  p{
+    font-size: 27px;
+  }
+  .redes{
+    font-size: 21px;
+    a{
+      color: inherit;
+    }
+  }
+}
+
+#francisco{
+  background-image: url('../perfe/images/n_08.jpg');
+
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1{
+    color: white;
+    font-size: 125px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0px;
+    text-align: center;
+ }
+
 }
 
 
