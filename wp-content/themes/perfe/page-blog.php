@@ -1,10 +1,14 @@
-<!-- Archivo de cabecera global de Wordpress -->
+<?php
+/*
+Template Name: blog
+*/
+?>
 <?php get_header(); ?>
 <!-- Listado de posts -->
 <?php if ( have_posts() ) : ?>
 
 
-  <section class="container-fluid">
+ <!--  <section class="container-fluid">
     <div class="container">
           <?php while ( have_posts() ) : the_post(); ?>
 
@@ -17,9 +21,9 @@
 
         <?php the_excerpt(); ?>
 
-        <footer>
+    <footer>
             <address>Por <?php the_author_posts_link() ?></address>
-        </footer>
+        </footer> 
 
       </article>
 
@@ -29,7 +33,7 @@
       <span class="in-left"><?php next_posts_link('« Entradas antiguas'); ?></span>
       <span class="in-right"><?php previous_posts_link('Entradas más recientes »'); ?></span>
     </div>
-  </section>
+  </section> -->
 
 <?php else : ?>
   <p><?php _e('Ups!, no hay entradas.'); ?></p>

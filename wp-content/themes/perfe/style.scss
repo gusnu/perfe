@@ -1,6 +1,6 @@
 /*
 Theme Name: Perfe Studio
-Theme URI: http://geekpurple.com/Plantilla_Wordpress
+Theme URI: 
 Description: Tema para Estudio Perfe
 Author: Gustavo Adolfo Núñez
 Author URI: http://twitter.com/gusnu
@@ -500,6 +500,7 @@ body {
   }
 }
 
+
 .navbar .navbar-brand {
   color: black;
   font-size: 69px;
@@ -527,6 +528,7 @@ h2#parrafo-cabecera {
 }
 
 #inicio {
+  height: 600px;
   .col-md-10.col-md-offset-1{
        top: -150px;
 }
@@ -558,12 +560,19 @@ h2#parrafo-cabecera {
 
 //pagina quienes somos
 
-section#quienes-1{
-  margin-top: 150px;
-  margin-bottom: 150px;
+#quienes-1{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color:black;
+  h2{
+    font-size: 40px;
+    color:white;
+
+  }
   p{
     font-size:30px;
     margin-bottom:50px;
+    color:white;
   }
   img{
     margin-bottom:60px;
@@ -587,32 +596,75 @@ section#quienes-1{
     vertical-align: middle;
     margin: 0px;
     text-align: center;
+
  }
 
 }
 #datos-camilo,#datos-francisco{
       padding-top: 50px;
       padding-bottom: 50px;
+      background-color: black;
   p{
     font-size: 27px;
+    color:white;
   }
   .redes{
     font-size: 21px;
+    color:white;
     a{
-      color: inherit;
+      color: white;
+
     }
   }
 }
 
 #francisco{
   background-image: url('../perfe/images/n_08.jpg');
-
   background-size: cover;
   background-position: center;
   height: 850px;
   display: flex;
+  align-items:center;
+  justify-content:center;
+  h1{
+    color: white;
+    font-size: 125px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0px;
+    text-align: center;
+ }
+}
+
+#f-estudio{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:black;
+}
+.clientes{
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  ul{
+  list-style:none;
+  padding-top:50px;
+    li{
+      font-size:25px;
+    }
+  }
+}
+
+//contacto
+#f-contacto{
+  background-image: url('../perfe/images/con_02.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+  display: flex;
   align-items: center;
   justify-content: center;
+
   h1{
     color: white;
     font-size: 125px;
@@ -625,6 +677,35 @@ section#quienes-1{
 
 }
 
+#azul{
+  background-color:#090fce;
+  color: white;
+  height: 890px;
+  padding: 60px 0;
+  font-size: 20px;
+  a{
+    color: white;
+  }
+  .col-xs-12{
+    margin: 10px 0;
+  }
+  .mapa{
+    padding:60px 0;
+    iframe{
+          border: 0;
+    margin: 0 auto;
+    float: none;
+    display: block;
+
+    }
+  }
+}
+.projects{
+  li{
+    height: auto;
+    overflow: hidden;
+  }
+}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -645,6 +726,24 @@ section#quienes-1{
     letter-spacing: 3px;
     position: relative;
     top: 60px;
+  }
+}
+.foto{
+  background-image: url('../perfe/images/n_02.jpg');
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.mail{
+  padding-top:100px;
+  padding-bottom:100px;
+  background-color: black;
+  color: white;
+  p{
+    font-size:34px;
+    text-align: center;
   }
 }
 
