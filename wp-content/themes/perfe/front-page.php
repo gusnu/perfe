@@ -48,7 +48,7 @@ Template Name: home
 </section>
 
 
-<section class="container" id="inicio">
+<!-- <section class="container" id="inicio">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 
@@ -70,7 +70,7 @@ Template Name: home
          ?>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- Archivo de barra lateral por defecto -->
 <?php get_sidebar(); ?>
