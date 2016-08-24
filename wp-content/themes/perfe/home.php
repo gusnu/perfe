@@ -4,7 +4,7 @@
 <?php if ( have_posts() ) : ?>
 
 
-  <section class="container-fluid">
+  <section class="container-fluid listado">
     <div class="container">
           <?php while ( have_posts() ) : the_post(); ?>
 

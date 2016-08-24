@@ -476,6 +476,7 @@ body {
   font-family: 'Apercu';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: black;
 }
 
 .menu-menu-1-container {
@@ -577,6 +578,31 @@ h2#parrafo-cabecera {
   img{
     margin-bottom:60px;
   }
+}
+.intro{
+  margin-bottom: 124px;
+}
+
+.full{
+  margin-bottom: 60px;
+}
+
+.titulo{
+  h2{
+     font-weight: bold;
+  font-size: 23px;
+  }
+ 
+}
+
+.ano{
+  font-weight:bold;
+  span{
+    font-weight:normal;
+  }
+}
+.img-full{
+  width: 100%;
 }
 
 #camilo{
@@ -707,6 +733,78 @@ h2#parrafo-cabecera {
   }
 }
 
+//listado post
+.listado{
+  a{
+    color: black;
+  }
+  article{
+    footer{
+      font-size: 17px;
+      a{
+        font-size: 17px;
+      }
+    }
+    p{
+      font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 192%;
+    }
+    header{
+      h1{
+        color: black;
+      }
+    }
+  }
+  h1{
+    color: black;
+  }
+
+color:#000;
+}
+
+
+//single post
+.contenido-post{
+  address{
+    font-weight: bold;
+  }
+  time{
+
+  }
+  color: black;
+  margin-top: 90px;
+  a{
+    color: black;
+    text-decoration:underline;
+  }
+  h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 192%;
+  }
+}
+
+//footer
+footer{
+  margin-bottom: 40px;
+  a{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    &:hover{
+      text-decoration: underline;
+      color: #000;
+
+    }
+  }
+}
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
@@ -746,7 +844,6 @@ h2#parrafo-cabecera {
     text-align: center;
   }
 }
-
 
 
 /* Medium Devices, Desktops */

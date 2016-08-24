@@ -8,8 +8,9 @@ Template Name: blog
 <?php if ( have_posts() ) : ?>
 
 
- <!--  <section class="container-fluid">
-    <div class="container">
+ <section class="">
+
+    <div class="">
           <?php while ( have_posts() ) : the_post(); ?>
 
       <article>
@@ -33,7 +34,7 @@ Template Name: blog
       <span class="in-left"><?php next_posts_link('« Entradas antiguas'); ?></span>
       <span class="in-right"><?php previous_posts_link('Entradas más recientes »'); ?></span>
     </div>
-  </section> -->
+  </section> 
 
 <?php else : ?>
   <p><?php _e('Ups!, no hay entradas.'); ?></p>

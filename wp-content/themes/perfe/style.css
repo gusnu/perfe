@@ -382,7 +382,8 @@ textarea {
 body {
   font-family: 'Apercu';
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  color: black; }
 
 .menu-menu-1-container ul {
   padding-right: 50px; }
@@ -459,6 +460,24 @@ h2#parrafo-cabecera {
     color: white; }
   #quienes-1 img {
     margin-bottom: 60px; }
+
+.intro {
+  margin-bottom: 124px; }
+
+.full {
+  margin-bottom: 60px; }
+
+.titulo h2 {
+  font-weight: bold;
+  font-size: 23px; }
+
+.ano {
+  font-weight: bold; }
+  .ano span {
+    font-weight: normal; }
+
+.img-full {
+  width: 100%; }
 
 #camilo {
   background-image: url("../perfe/images/n_06.jpg");
@@ -559,6 +578,51 @@ h2#parrafo-cabecera {
 .projects li {
   height: auto;
   overflow: hidden; }
+
+.listado {
+  color: #000; }
+  .listado a {
+    color: black; }
+  .listado article footer {
+    font-size: 17px; }
+    .listado article footer a {
+      font-size: 17px; }
+  .listado article p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 192%; }
+  .listado article header h1 {
+    color: black; }
+  .listado h1 {
+    color: black; }
+
+.contenido-post {
+  color: black;
+  margin-top: 90px; }
+  .contenido-post address {
+    font-weight: bold; }
+  .contenido-post a {
+    color: black;
+    text-decoration: underline; }
+  .contenido-post h1 {
+    font-weight: bold;
+    margin-bottom: 50px; }
+  .contenido-post p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 192%; }
+
+footer {
+  margin-bottom: 40px; }
+  footer a {
+    color: black;
+    font-size: 21px;
+    font-weight: bold; }
+    footer a:hover {
+      text-decoration: underline;
+      color: #000; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
