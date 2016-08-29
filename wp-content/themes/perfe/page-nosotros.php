@@ -7,6 +7,8 @@ Template Name: nosotros
 <?php get_header(); ?>
 
 
+
+
 <section class="container-fluid" id="quienes-1">
   <div class="container">
     <div class="row">
@@ -72,7 +74,7 @@ Template Name: nosotros
 <section class="container-fliud" id="datos-francisco">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 redes text-right">
+      <div class="col-md-4 col-xs-4 redes text-right">
         <h4>Instagram</h4>
         <a href="http://www.Instagram.com/dmnc1">@dmnc1</a>
         <br />  <br />
@@ -80,7 +82,7 @@ Template Name: nosotros
         <a href="http://twitter.com/dmnc1">@dmnc1</a>
       </div>
 
-      <div class="col-md-8">
+      <div class="col-md-8 col-xs-8">
         <p>
         Diseñador gráfico de Arcos (2011), especializado en visualísmo, 3D y dirección de arte. Su trabajo como artista es mas conocido bajo el nombre de DMNC, ha tenido importantes participaciones en la producción y dirección de diversos liveshows en la escena musical local.
         </p>
@@ -106,7 +108,7 @@ Template Name: nosotros
   <div class="container">
     <div class="row">
       <h2>Algunos de nuestros clientes</h2>
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
         <ul>
           <li>
             Nike
@@ -129,7 +131,7 @@ Template Name: nosotros
 
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
         <ul>
           <li>
             Chaco
@@ -153,7 +155,7 @@ Template Name: nosotros
         </ul>
 
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
         <ul>
           <li>
             Nano Stern
@@ -178,7 +180,7 @@ Template Name: nosotros
         </ul>
 
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
         <ul>
           <li>
             Quemasucabeza
@@ -222,6 +224,7 @@ Template Name: nosotros
 
   </div>
 </section>
+
 
 <!-- Archivo de barra lateral por defecto -->
 <?php get_sidebar(); ?>

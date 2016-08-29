@@ -5,6 +5,7 @@ Template Name: contacto
 */
 ?>
 <?php get_header(); ?>
+        
 
 <section class="container-fluid" id="quienes-1">
   <div class="container">
@@ -56,9 +57,14 @@ Template Name: contacto
           </div>
 
         
-      </div>
-    <div class="col-md-12 mapa">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.4717444624025!2d-70.64296198480099!3d-33.4370140807776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5996db1b88f%3A0x162b6f8b0fbc6b26!2sMerced+293%2C+Santiago%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1471978965263" width="950" height="505" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>  
+     <div id="map"><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.4719162342717!2d-70.64296734823868!3d-33.43700960411613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5996db1b88f%3A0x162b6f8b0fbc6b26!2sMerced+293%2C+Santiago%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1472505884908" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </div>
+     <div class="">https://api.mapbox.com/styles/v1/gusnu/cisgk8rqy006w2xpexw4vguv2.html?title=true&access_token=pk.eyJ1IjoiZ3VzbnUiLCJhIjoiY3dnWFM2byJ9.2lh9P_RnOIm60ENVlfQJYg#15/-33.43706000000001/-70.640731/0</div>
+
+
+<!--     <div class="col-md-12 mapa" id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.4717444624025!2d-70.64296198480099!3d-33.4370140807776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5996db1b88f%3A0x162b6f8b0fbc6b26!2sMerced+293%2C+Santiago%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1471978965263" width="950" height="505" frameborder="0" style="border:0" allowfullscreen></iframe> -->
     </div>
 
     </div>

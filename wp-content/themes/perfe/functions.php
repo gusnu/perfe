@@ -5,6 +5,21 @@
  * administrador de Wordpress.
  */
 
+add_filter('manage_posts_columns', 'add_img_column');
+add_filter('manage_posts_custom_column', 'manage_img_column', 10, 2);
+
+function add_img_column($columns) {
+    $columns['img'] = 'Featured Image';
+    return $columns;
+}
+
+function manage_img_column($column_name, $post_id) {
+    if( $column_name == 'img' ) {
+        return get_the_post_thumbnail($post_id, 'thumbnail');
+    }
+}
+
+
 function mis_menus() {
   register_nav_menus(
     array(
@@ -71,3 +86,6 @@ function custom_post_type() {
 
 }
 add_action( 'init', 'custom_post_type', 0 );
+
+
+

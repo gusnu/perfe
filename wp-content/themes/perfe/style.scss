@@ -577,6 +577,7 @@ h2#parrafo-cabecera {
   }
   img{
     margin-bottom:60px;
+    width: 100%;
   }
 }
 .intro{
@@ -667,6 +668,10 @@ h2#parrafo-cabecera {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color:black;
+  img{
+    width: 100%;
+    margin-bottom: 60px;
+  }
 }
 .clientes{
   margin-top: 80px;
@@ -804,6 +809,13 @@ footer{
 
     }
   }
+}
+
+a:visited { 
+    color: #000;
+}
+a:focus {
+  color: #000;
 }
 /*==========  Mobile First Method  ==========*/
 
