@@ -8,6 +8,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
+
+        <br>
+        <?php the_post_thumbnail( 'single-post-thumbnail' ); ?>
           <?php while ( have_posts() ) : the_post(); ?>
           <article>
             <header>

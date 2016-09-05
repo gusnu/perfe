@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
 Theme Name: Perfe Studio
-Theme URI: 
+Theme URI:
 Description: Tema para Estudio Perfe
 Author: Gustavo Adolfo Núñez
 Author URI: http://twitter.com/gusnu
@@ -387,19 +387,22 @@ body {
 
 .menu-menu-1-container ul {
   padding-right: 50px; }
-  .menu-menu-1-container ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 10px 10px; }
-    .menu-menu-1-container ul li a {
-      font-family: 'Apercu';
-      text-decoration: none;
-      list-style: none;
-      color: black;
-      text-transform: uppercase;
-      font-size: 1em; }
-      .menu-menu-1-container ul li a:hover {
-        text-decoration: underline; }
+
+.menu-menu-1-container ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px; }
+
+.menu-menu-1-container ul li a {
+  font-family: 'Apercu';
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em; }
+
+.menu-menu-1-container ul li a:hover {
+  text-decoration: underline; }
 
 .navbar .navbar-brand {
   color: black;
@@ -425,13 +428,15 @@ h2#parrafo-cabecera {
 
 #inicio {
   height: 600px; }
-  #inicio .col-md-10.col-md-offset-1 {
-    top: -150px; }
+
+#inicio .col-md-10.col-md-offset-1 {
+  top: -150px; }
 
 .navbar-toggle {
   background-color: #000; }
-  .navbar-toggle .icon-bar {
-    background-color: #fff; }
+
+.navbar-toggle .icon-bar {
+  background-color: #fff; }
 
 .projects ul.projects li.project h3, .projects-page ul.projects li.project h3 {
   margin-bottom: 0;
@@ -451,16 +456,19 @@ h2#parrafo-cabecera {
   padding-top: 150px;
   padding-bottom: 150px;
   background-color: black; }
-  #quienes-1 h2 {
-    font-size: 40px;
-    color: white; }
-  #quienes-1 p {
-    font-size: 30px;
-    margin-bottom: 50px;
-    color: white; }
-  #quienes-1 img {
-    margin-bottom: 60px;
-    width: 100%; }
+
+#quienes-1 h2 {
+  font-size: 40px;
+  color: white; }
+
+#quienes-1 p {
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: white; }
+
+#quienes-1 img {
+  margin-bottom: 60px;
+  width: 100%; }
 
 .intro {
   margin-bottom: 124px; }
@@ -474,8 +482,9 @@ h2#parrafo-cabecera {
 
 .ano {
   font-weight: bold; }
-  .ano span {
-    font-weight: normal; }
+
+.ano span {
+  font-weight: normal; }
 
 .img-full {
   width: 100%; }
@@ -488,27 +497,31 @@ h2#parrafo-cabecera {
   display: flex;
   align-items: center;
   justify-content: center; }
-  #camilo h1 {
-    color: white;
-    font-size: 125px;
-    text-align: center;
-    font-weight: bold;
-    vertical-align: middle;
-    margin: 0px;
-    text-align: center; }
+
+#camilo h1 {
+  color: white;
+  font-size: 125px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0px;
+  text-align: center; }
 
 #datos-camilo, #datos-francisco {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: black; }
-  #datos-camilo p, #datos-francisco p {
-    font-size: 27px;
-    color: white; }
-  #datos-camilo .redes, #datos-francisco .redes {
-    font-size: 21px;
-    color: white; }
-    #datos-camilo .redes a, #datos-francisco .redes a {
-      color: white; }
+
+#datos-camilo p, #datos-francisco p {
+  font-size: 27px;
+  color: white; }
+
+#datos-camilo .redes, #datos-francisco .redes {
+  font-size: 21px;
+  color: white; }
+
+#datos-camilo .redes a, #datos-francisco .redes a {
+  color: white; }
 
 #francisco {
   background-image: url("../perfe/images/n_08.jpg");
@@ -518,31 +531,36 @@ h2#parrafo-cabecera {
   display: flex;
   align-items: center;
   justify-content: center; }
-  #francisco h1 {
-    color: white;
-    font-size: 125px;
-    text-align: center;
-    font-weight: bold;
-    vertical-align: middle;
-    margin: 0px;
-    text-align: center; }
+
+#francisco h1 {
+  color: white;
+  font-size: 125px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0px;
+  text-align: center; }
 
 #f-estudio {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: black; }
-  #f-estudio img {
-    width: 100%;
-    margin-bottom: 60px; }
+
+#f-estudio img {
+  width: 100%;
+  margin-bottom: 60px; }
 
 .clientes {
-  margin-top: 80px;
-  margin-bottom: 80px; }
-  .clientes ul {
-    list-style: none;
-    padding-top: 50px; }
-    .clientes ul li {
-      font-size: 25px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.clientes ul {
+  list-style: none;
+  padding-top: 50px; }
+
+.clientes ul li {
+  font-size: 25px;
+  color: black; }
 
 #f-contacto {
   background-image: url("../perfe/images/con_02.jpg");
@@ -552,32 +570,38 @@ h2#parrafo-cabecera {
   display: flex;
   align-items: center;
   justify-content: center; }
-  #f-contacto h1 {
-    color: white;
-    font-size: 125px;
-    text-align: center;
-    font-weight: bold;
-    vertical-align: middle;
-    margin: 0px;
-    text-align: center; }
+
+#f-contacto h1 {
+  color: white;
+  font-size: 125px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0px;
+  text-align: center; }
 
 #azul {
   background-color: #090fce;
   color: white;
-  height: 890px;
+  min-height: 890px;
+  max-height: auto;
   padding: 60px 0;
   font-size: 20px; }
-  #azul a {
-    color: white; }
-  #azul .col-xs-12 {
-    margin: 10px 0; }
-  #azul .mapa {
-    padding: 60px 0; }
-    #azul .mapa iframe {
-      border: 0;
-      margin: 0 auto;
-      float: none;
-      display: block; }
+
+#azul a {
+  color: white; }
+
+#azul .col-xs-12 {
+  margin: 10px 0; }
+
+#azul .mapa {
+  padding: 60px 0; }
+
+#azul .mapa iframe {
+  border: 0;
+  margin: 0 auto;
+  float: none;
+  display: block; }
 
 .projects li {
   height: auto;
@@ -585,48 +609,60 @@ h2#parrafo-cabecera {
 
 .listado {
   color: #000; }
-  .listado a {
-    color: black; }
-  .listado article footer {
-    font-size: 17px; }
-    .listado article footer a {
-      font-size: 17px; }
-  .listado article p {
-    font-size: 20px;
-    color: black;
-    margin-bottom: 20px;
-    line-height: 192%; }
-  .listado article header h1 {
-    color: black; }
-  .listado h1 {
-    color: black; }
+
+.listado a {
+  color: black; }
+
+.listado article footer {
+  font-size: 17px; }
+
+.listado article footer a {
+  font-size: 17px; }
+
+.listado article p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+  line-height: 192%; }
+
+.listado article header h1 {
+  color: black; }
+
+.listado h1 {
+  color: black; }
 
 .contenido-post {
   color: black;
   margin-top: 90px; }
-  .contenido-post address {
-    font-weight: bold; }
-  .contenido-post a {
-    color: black;
-    text-decoration: underline; }
-  .contenido-post h1 {
-    font-weight: bold;
-    margin-bottom: 50px; }
-  .contenido-post p {
-    font-size: 20px;
-    color: black;
-    margin-bottom: 20px;
-    line-height: 192%; }
+
+.contenido-post address {
+  font-weight: bold; }
+
+.contenido-post a {
+  color: black;
+  text-decoration: underline; }
+
+.contenido-post h1 {
+  font-weight: bold;
+  margin-bottom: 50px; }
+
+.contenido-post p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+  line-height: 192%; }
 
 footer {
   margin-bottom: 40px; }
-  footer a {
-    color: black;
-    font-size: 21px;
-    font-weight: bold; }
-    footer a:hover {
-      text-decoration: underline;
-      color: #000; }
+
+footer a {
+  color: black;
+  font-size: 21px;
+  font-weight: bold; }
+
+footer a:hover {
+  text-decoration: underline;
+  color: #000; }
 
 a:visited {
   color: #000; }
@@ -634,33 +670,38 @@ a:visited {
 a:focus {
   color: #000; }
 
+.visible-xs.redes.col-xs-6 {
+  margin-bottom: 60px; }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .menu-menu-1-container {
-    font-size: 17px;
+    font-size: 15px;
     color: black;
     font-weight: bold;
     letter-spacing: 3px;
     position: relative;
-    top: 60px; } }
-.foto {
-  background-image: url("../perfe/images/n_02.jpg");
-  height: 350px;
-  background-size: cover;
-  background-position: center; }
+    top: 60px;
+    right: 30px; }
 
-.mail {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: black;
-  color: white; }
+  .foto {
+    background-image: url("../perfe/images/n_02.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center; }
+
+  .mail {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+    color: white; }
+
   .mail p {
     font-size: 34px;
-    text-align: center; }
-
+    text-align: center; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .short-description {
@@ -673,3 +714,150 @@ a:focus {
     margin-top: 91px;
     padding: 0px 106px; } }
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 480px) {
+  .navbar .navbar-brand {
+    font-size: 33px; }
+
+  #camilo h1 {
+    font-size: 79px; }
+
+  #datos-camilo p, #datos-francisco p {
+    font-size: 20px;
+    color: white; }
+
+  #francisco h1 {
+    font-size: 63px; }
+
+  #francisco {
+    height: 236px; }
+
+  #camilo {
+    height: 236px; }
+
+  .mail p {
+    font-size: 20px;
+    text-align: center; }
+
+  #quienes-1 p {
+    font-size: 22px;
+    line-height: 127%; }
+
+  #datos-camilo .redes, #datos-francisco .redes {
+    font-size: 19px;
+    color: white; }
+
+  footer a {
+    font-size: 14px; }
+
+  footer {
+    margin-top: 30px; }
+
+  h2#parrafo-cabecera {
+    font-size: 139%; }
+
+  .intro {
+    margin-bottom: 70px; } }
+#menu-negro {
+  color: red !important; }
+
+.nav-blanca .menu-menu-1-container ul li a {
+  color: white; }
+
+.clientes h2 {
+  color: black; }
+
+@media only screen and (max-width: 480px) {
+  #quienes-1 .nos h2 {
+    font-size: 27px;
+    color: white;
+    margin-bottom: 50px; }
+
+  #quienes-1 {
+    padding-top: 0;
+    padding-bottom: 0; }
+
+  .navbar .navbar-brand {
+    padding-top: 13px; }
+
+  .clientes {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+  #f-estudio {
+    padding-bottom: 0; } }
+.modal-dialog {
+  background-color: rgba(1, 68, 255, 0.88); }
+
+.modal-content {
+  position: relative;
+  background-color: transparent;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  outline: 0;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  width: 500px;
+  margin: 0 auto; }
+
+.modal-title {
+  color: white; }
+
+.modal-dialog {
+  width: 100%; }
+
+#eModal-1 {
+  top: 32px !important;
+  left: 0px !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(0, 43, 255, 0.89) !important; }
+
+.modal-body ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none; }
+
+.modal-footer {
+  padding: 15px;
+  border-top: 0; }
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 0; }
+
+.emodal-title {
+  font-family: 'Apercu' !important;
+  padding-left: 37px;
+  text-transform: uppercase;
+  font-size: 15px !important;
+  text-align: center !important;
+  color: white !important;
+  text-decoration: underline; }
+
+.emodal-content ul li {
+  color: white;
+  list-style: none;
+  font-family: 'Apercu', sans-serif;
+  font-size: 30px;
+  line-height: 60px; }
+
+.emodal-close {
+  background-color: transparent !important;
+  font-family: 'Apercu' !important;
+  padding-left: 37px; }
+
+.mitad {
+  margin-bottom: 50px; }
+
+@media only screen and (min-width: 768px) {
+  .menu-menu-1-container {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: relative;
+    top: 60px;
+    right: 30px; } }

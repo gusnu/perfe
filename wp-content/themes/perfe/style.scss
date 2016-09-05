@@ -1,379 +1,305 @@
+@charset "UTF-8";
 /*
 Theme Name: Perfe Studio
-Theme URI: 
+Theme URI:
 Description: Tema para Estudio Perfe
 Author: Gustavo Adolfo Núñez
 Author URI: http://twitter.com/gusnu
 Version: 1.0
 */
-
-@import 'css/bootstrap-theme.min.css';
-
-@import 'css/bootstrap.min.css';
-
+@import url(css/bootstrap-theme.min.css);
+@import url(css/bootstrap.min.css);
 @font-face {
   font-family: 'Apercu';
-    src: url(fonts/Apercu.otf);
-}
-
+  src: url(fonts/Apercu.otf); }
 /* Normalize */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
-
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
-
 html {
   font-family: 'Apercu', sans-serif;
- /* 1 */
+  /* 1 */
   -ms-text-size-adjust: 100%;
- /* 2 */
+  /* 2 */
   -webkit-text-size-adjust: 100%;
- /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the margin in all browsers (opinionated).
  */
-
 body {
-  margin: 0;
-}
-
+  margin: 0; }
 
 /* HTML5 display definitions
    ========================================================================== */
-
 /**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  * 2. Add the correct display in IE.
  */
-
 article,
 aside,
-details, /* 1 */
+details,
 figcaption,
 figure,
 footer,
 header,
-main, /* 2 */
+main,
 menu,
 nav,
 section,
 summary {
- /* 1 */
-  display: block;
-}
+  /* 1 */
+  display: block; }
 
 /**
  * Add the correct display in IE 9-.
  */
-
 audio,
 canvas,
 progress,
 video {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in iOS 4-7.
  */
-
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
  * Add the correct display in IE 10-.
  * 1. Add the correct display in IE.
  */
-
-template, /* 1 */
+template,
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* Links
    ========================================================================== */
-
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-
 a {
   background-color: transparent;
- /* 1 */
+  /* 1 */
   -webkit-text-decoration-skip: objects;
- /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */
-
 a:active,
 a:hover {
-  outline-width: 0;
-}
+  outline-width: 0; }
 
 /* Text-level semantics
    ========================================================================== */
-
 /**
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-
 abbr[title] {
   border-bottom: none;
- /* 1 */
+  /* 1 */
   text-decoration: underline;
- /* 2 */
+  /* 2 */
   text-decoration: underline dotted;
- /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-
 b,
 strong {
-  font-weight: inherit;
-}
+  font-weight: inherit; }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * Add the correct font style in Android 4.3-.
  */
-
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
-
 mark {
   background-color: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /**
  * Add the correct font size in all browsers.
  */
-
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
-
 /**
  * Remove the border on images inside links in IE 10-.
  */
-
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
-
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Grouping content
    ========================================================================== */
-
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
- /* 1 */
+  /* 1 */
   font-size: 1em;
- /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct margin in IE 8.
  */
-
 figure {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
 
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-
 hr {
   box-sizing: content-box;
- /* 1 */
+  /* 1 */
   height: 0;
- /* 1 */
+  /* 1 */
   overflow: visible;
- /* 2 */
-}
+  /* 2 */ }
 
 /* Forms
    ========================================================================== */
-
 /**
  * 1. Change font properties to `inherit` in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-
 button,
 input,
 select,
 textarea {
   font: inherit;
- /* 1 */
+  /* 1 */
   margin: 0;
- /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Restore the font weight unset by the previous rule.
  */
-
 optgroup {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-
 button,
 input {
- /* 1 */
-  overflow: visible;
-}
+  /* 1 */
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-
 button,
 select {
- /* 1 */
-  text-transform: none;
-}
+  /* 1 */
+  text-transform: none; }
 
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-
 button,
-html [type="button"], /* 1 */
+html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
- /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
-
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
-
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  padding: 0.35em 0.625em 0.75em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -381,126 +307,99 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-
 legend {
   box-sizing: border-box;
- /* 1 */
+  /* 1 */
   color: inherit;
- /* 2 */
+  /* 2 */
   display: table;
- /* 1 */
+  /* 1 */
   max-width: 100%;
- /* 1 */
+  /* 1 */
   padding: 0;
- /* 3 */
+  /* 3 */
   white-space: normal;
- /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
-
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
- /* 1 */
+  /* 1 */
   padding: 0;
- /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-
 [type="search"] {
   -webkit-appearance: textfield;
- /* 1 */
+  /* 1 */
   outline-offset: -2px;
- /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
  */
-
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * Correct the text style of placeholders in Chrome, Edge, and Safari.
  */
-
 ::-webkit-input-placeholder {
   color: inherit;
-  opacity: 0.54;
-}
+  opacity: 0.54; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
- /* 1 */
+  /* 1 */
   font: inherit;
- /* 2 */
-}
-
-//fin
-
+  /* 2 */ }
 
 body {
   font-family: 'Apercu';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: black;
-}
+  color: black; }
 
-.menu-menu-1-container {
-  ul{
-    padding-right: 50px;
-  li{
+.menu-menu-1-container ul {
+  padding-right: 50px; }
+  .menu-menu-1-container ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px; }
+    .menu-menu-1-container ul li a {
+      font-family: 'Apercu';
+      text-decoration: none;
       list-style: none;
-  display: inline-block;
-  padding: 10px 10px;
-  a{
-        font-family: 'Apercu';
-  text-decoration: none;
-  list-style: none;
-  color: black;
-  text-transform: uppercase;
-  font-size: 1em;
-  &:hover{
-          text-decoration: underline;
-}
-      }
-    }
-  }
-}
-
+      color: black;
+      text-transform: uppercase;
+      font-size: 1em; }
+      .menu-menu-1-container ul li a:hover {
+        text-decoration: underline; }
 
 .navbar .navbar-brand {
   color: black;
@@ -510,370 +409,470 @@ body {
   border-color: transparent;
   height: 100px;
   padding-left: 50px;
-  padding-top: 50px;
-}
+  padding-top: 50px; }
 
 pre {
   background-color: transparent;
   border: none;
-  font-family: 'Apercu', 'helvetica Neue', sans-serif !important;
-}
+  font-family: 'Apercu', 'helvetica Neue', sans-serif !important; }
 
 .projects ul.projects {
-  font-family: 'Apercu', 'helvetica Neue', sans-serif !important;
-}
+  font-family: 'Apercu', 'helvetica Neue', sans-serif !important; }
 
 h2#parrafo-cabecera {
   font-size: 175%;
-  line-height: 126%;
-}
+  line-height: 126%; }
 
 #inicio {
-  height: 600px;
-  .col-md-10.col-md-offset-1{
-       top: -150px;
-}
-}
+  height: 600px; }
+  #inicio .col-md-10.col-md-offset-1 {
+    top: -150px; }
 
 .navbar-toggle {
-  background-color: #000;
-  .icon-bar{
-    background-color: #fff;
-}
-}
+  background-color: #000; }
+  .navbar-toggle .icon-bar {
+    background-color: #fff; }
 
 .projects ul.projects li.project h3, .projects-page ul.projects li.project h3 {
   margin-bottom: 0;
   color: black;
   font-size: 23px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .short-description {
   position: relative;
   top: -160px;
-  font-size: 23px;
-}
+  font-size: 23px; }
 
 .projects ul.projects li.project, .projects-page ul.projects li.project {
-  margin: 0;
-}
+  margin: 0; }
 
-//pagina quienes somos
-
-#quienes-1{
+#quienes-1 {
   padding-top: 150px;
   padding-bottom: 150px;
-  background-color:black;
-  h2{
+  background-color: black; }
+  #quienes-1 h2 {
     font-size: 40px;
-    color:white;
+    color: white; }
+  #quienes-1 p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: white; }
+  #quienes-1 img {
+    margin-bottom: 60px;
+    width: 100%; }
 
-  }
-  p{
-    font-size:30px;
-    margin-bottom:50px;
-    color:white;
-  }
-  img{
-    margin-bottom:60px;
-    width: 100%;
-  }
-}
-.intro{
-  margin-bottom: 124px;
-}
+.intro {
+  margin-bottom: 124px; }
 
-.full{
-  margin-bottom: 60px;
-}
+.full {
+  margin-bottom: 60px; }
 
-.titulo{
-  h2{
-     font-weight: bold;
-  font-size: 23px;
-  }
- 
-}
+.titulo h2 {
+  font-weight: bold;
+  font-size: 23px; }
 
-.ano{
-  font-weight:bold;
-  span{
-    font-weight:normal;
-  }
-}
-.img-full{
-  width: 100%;
-}
+.ano {
+  font-weight: bold; }
+  .ano span {
+    font-weight: normal; }
 
-#camilo{
-  background-image: url('../perfe/images/n_06.jpg');
+.img-full {
+  width: 100%; }
+
+#camilo {
+  background-image: url("../perfe/images/n_06.jpg");
   background-size: cover;
   background-position: center;
   height: 850px;
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  h1{
+  justify-content: center; }
+  #camilo h1 {
     color: white;
     font-size: 125px;
     text-align: center;
     font-weight: bold;
     vertical-align: middle;
     margin: 0px;
-    text-align: center;
+    text-align: center; }
 
- }
-
-}
-#datos-camilo,#datos-francisco{
-      padding-top: 50px;
-      padding-bottom: 50px;
-      background-color: black;
-  p{
+#datos-camilo, #datos-francisco {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black; }
+  #datos-camilo p, #datos-francisco p {
     font-size: 27px;
-    color:white;
-  }
-  .redes{
+    color: white; }
+  #datos-camilo .redes, #datos-francisco .redes {
     font-size: 21px;
-    color:white;
-    a{
-      color: white;
+    color: white; }
+    #datos-camilo .redes a, #datos-francisco .redes a {
+      color: white; }
 
-    }
-  }
-}
-
-#francisco{
-  background-image: url('../perfe/images/n_08.jpg');
+#francisco {
+  background-image: url("../perfe/images/n_08.jpg");
   background-size: cover;
   background-position: center;
   height: 850px;
   display: flex;
-  align-items:center;
-  justify-content:center;
-  h1{
+  align-items: center;
+  justify-content: center; }
+  #francisco h1 {
     color: white;
     font-size: 125px;
     text-align: center;
     font-weight: bold;
     vertical-align: middle;
     margin: 0px;
-    text-align: center;
- }
-}
+    text-align: center; }
 
-#f-estudio{
+#f-estudio {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color:black;
-  img{
+  background-color: black; }
+  #f-estudio img {
     width: 100%;
-    margin-bottom: 60px;
-  }
-}
-.clientes{
-  margin-top: 80px;
-  margin-bottom: 80px;
+    margin-bottom: 60px; }
 
-  ul{
-  list-style:none;
-  padding-top:50px;
-    li{
-      font-size:25px;
-    }
-  }
-}
+.clientes {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .clientes ul {
+    list-style: none;
+    padding-top: 50px; }
+    .clientes ul li {
+      font-size: 25px;
+  color:black;
+ }
 
-//contacto
-#f-contacto{
-  background-image: url('../perfe/images/con_02.jpg');
+#f-contacto {
+  background-image: url("../perfe/images/con_02.jpg");
   background-size: cover;
   background-position: center;
   height: 660px;
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  h1{
+  justify-content: center; }
+  #f-contacto h1 {
     color: white;
     font-size: 125px;
     text-align: center;
     font-weight: bold;
     vertical-align: middle;
     margin: 0px;
-    text-align: center;
- }
+    text-align: center; }
 
-}
-
-#azul{
-  background-color:#090fce;
+#azul {
+  background-color: #090fce;
   color: white;
-  height: 890px;
+  min-height: 890px;
+max-height: auto;
   padding: 60px 0;
-  font-size: 20px;
-  a{
-    color: white;
-  }
-  .col-xs-12{
-    margin: 10px 0;
-  }
-  .mapa{
-    padding:60px 0;
-    iframe{
-          border: 0;
-    margin: 0 auto;
-    float: none;
-    display: block;
+  font-size: 20px; }
+  #azul a {
+    color: white; }
+  #azul .col-xs-12 {
+    margin: 10px 0; }
+  #azul .mapa {
+    padding: 60px 0; }
+    #azul .mapa iframe {
+      border: 0;
+      margin: 0 auto;
+      float: none;
+      display: block; }
 
-    }
-  }
-}
-.projects{
-  li{
-    height: auto;
-    overflow: hidden;
-  }
-}
+.projects li {
+  height: auto;
+  overflow: hidden; }
 
-//listado post
-.listado{
-  a{
-    color: black;
-  }
-  article{
-    footer{
-      font-size: 17px;
-      a{
-        font-size: 17px;
-      }
-    }
-    p{
-      font-size: 20px;
-    color: black;
-    margin-bottom: 20px;
-    line-height: 192%;
-    }
-    header{
-      h1{
-        color: black;
-      }
-    }
-  }
-  h1{
-    color: black;
-  }
-
-color:#000;
-}
-
-
-//single post
-.contenido-post{
-  address{
-    font-weight: bold;
-  }
-  time{
-
-  }
-  color: black;
-  margin-top: 90px;
-  a{
-    color: black;
-    text-decoration:underline;
-  }
-  h1{
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  p{
+.listado {
+  color: #000; }
+  .listado a {
+    color: black; }
+  .listado article footer {
+    font-size: 17px; }
+    .listado article footer a {
+      font-size: 17px; }
+  .listado article p {
     font-size: 20px;
     color: black;
     margin-bottom: 20px;
-    line-height: 192%;
-  }
-}
+    line-height: 192%; }
+  .listado article header h1 {
+    color: black; }
+  .listado h1 {
+    color: black; }
 
-//footer
-footer{
-  margin-bottom: 40px;
-  a{
+.contenido-post {
+  color: black;
+  margin-top: 90px; }
+  .contenido-post address {
+    font-weight: bold; }
+  .contenido-post a {
+    color: black;
+    text-decoration: underline; }
+  .contenido-post h1 {
+    font-weight: bold;
+    margin-bottom: 50px; }
+  .contenido-post p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 192%; }
+
+footer {
+  margin-bottom: 40px; }
+  footer a {
     color: black;
     font-size: 21px;
-    font-weight: bold;
-    &:hover{
+    font-weight: bold; }
+    footer a:hover {
       text-decoration: underline;
-      color: #000;
+      color: #000; }
 
-    }
-  }
-}
+a:visited {
+  color: #000; }
 
-a:visited { 
-    color: #000;
-}
 a:focus {
-  color: #000;
+  color: #000; }
+.visible-xs.redes.col-xs-6 {
+    margin-bottom: 60px;
 }
+
+
 /*==========  Mobile First Method  ==========*/
-
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-}
-
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-}
-
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
   .menu-menu-1-container {
-    font-size: 17px;
+    font-size: 15px;
     color: black;
     font-weight: bold;
     letter-spacing: 3px;
     position: relative;
     top: 60px;
-  }
-}
-.foto{
-  background-image: url('../perfe/images/n_02.jpg');
+  right:30px; 
+   }
+
+.foto {
+  background-image: url("../perfe/images/n_02.jpg");
   height: 350px;
   background-size: cover;
-  background-position: center;
+  background-position: center; }
 
-}
-
-.mail{
-  padding-top:100px;
-  padding-bottom:100px;
+.mail {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: black;
-  color: white;
-  p{
-    font-size:34px;
-    text-align: center;
-  }
+  color: white; }
+  .mail p {
+    font-size: 34px;
+    text-align: center; }
 }
-
-
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width: 992px) {
+  
   .short-description {
-    left: 33px;
-  }
+    left: 33px; }
 
   .projects ul.projects li.project h3, .projects-page ul.projects li.project h3 {
-    padding-left: 35px;
-  }
+    padding-left: 35px; }
 
   h2#parrafo-cabecera {
     margin-top: 91px;
-    padding: 0px 106px;
+    padding: 0px 106px; } 
+    
   }
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 480px) {
+  .navbar .navbar-brand {
+    font-size: 33px;
+}
+  
+#camilo h1 {
+    font-size: 79px;
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+#datos-camilo p, #datos-francisco p {
+    font-size: 20px;
+    color: white;
+}
+
+#francisco h1{
+ font-size: 63px;
+}
+
+#francisco{
+height:236px;
+}
+
+#camilo{
+height:236px;
+}
+
+.mail p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#quienes-1 p {
+    font-size: 22px;
+    line-height: 127%;
+}
+
+#datos-camilo .redes, #datos-francisco .redes {
+    font-size: 19px;
+    color: white;
+}
+
+footer a {
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+h2#parrafo-cabecera {
+    font-size: 139%;
+}
+
+.intro {
+    margin-bottom: 70px;
+}
+
+
+}
+
+
+
+//cambios martes 30/08
+
+#menu-negro{
+color: red !important;
+
+}
+.nav-blanca .menu-menu-1-container ul li a {
+color:white;
+}
+.clientes h2{ color: black;
+  }
+
+@media only screen and (max-width: 480px) {
+#quienes-1 .nos h2{
+    font-size: 27px;
+    color: white;
+    margin-bottom: 50px;
+  }
+
+#quienes-1{ padding-top:0;
+padding-bottom: 0;
+  }
+.navbar .navbar-brand{ 
+padding-top:13px;
+  }
+.clientes{
+margin-top:0;
+margin-bottom: 0;
+}
+
+#f-estudio{
+padding-bottom:0;
+}
+
+
+}
+
+.modal-dialog{
+
+background-color: rgba(1, 68, 255, 0.88);
+}
+.modal-content {
+    position: relative;
+    background-color: transparent;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: 0;
+    border-radius:0;
+    border:none;
+box-shadow: none;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.modal-title{
+color:white;
+}
+.modal-dialog{
+width: 100%;
+}
+
+#eModal-1{
+  top:32px !important;
+  left: 0px !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color:rgba(0, 43, 255, 0.89) !important;
+}
+.modal-body ul li{
+  color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    list-style: none;
+}
+.modal-footer {
+    padding: 15px;
+    border-top: 0;
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 0;
+}
+
+.emodal-title{
+  font-family: 'Apercu' !important;
+  padding-left: 37px;
+  text-transform: uppercase;
+  font-size: 15px !important;
+  text-align: center !important;
+  color: white !important;
+
+  text-decoration: underline;
+}
+.emodal-content{
+  ul{
+    li{
+    color: white;
+    list-style: none;
+    font-family: 'Apercu', sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    }
+  }
+}
+.emodal-close{
+  background-color: transparent !important;
+   font-family: 'Apercu' !important;
+  padding-left: 37px;
+
+}
+.mitad{
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px){
+.menu-menu-1-container {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: relative;
+    top: 60px;
+    right: 30px;
+}
 }

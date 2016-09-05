@@ -196,6 +196,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/PERFE-WEB-Home_03.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82502,
+		"inputAbbreviatedPath": "\/images\/PERFE-WEB-Home_03.png",
+		"outputAbbreviatedPath": "\/images\/PERFE-WEB-Home_03.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PERFE-WEB-Home_06.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160136,
+		"inputAbbreviatedPath": "\/images\/PERFE-WEB-Home_06.png",
+		"outputAbbreviatedPath": "\/images\/PERFE-WEB-Home_06.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PERFE-WEB-Home_08.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75980,
+		"inputAbbreviatedPath": "\/images\/PERFE-WEB-Home_08.png",
+		"outputAbbreviatedPath": "\/images\/PERFE-WEB-Home_08.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PERFE-WEB-Home_12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219983,
+		"inputAbbreviatedPath": "\/images\/PERFE-WEB-Home_12.png",
+		"outputAbbreviatedPath": "\/images\/PERFE-WEB-Home_12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/work_03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -4,16 +4,22 @@
 <!-- Contenido del post -->
 <section class="container-fluid">
 	<div class="container">
-		<?php if ( have_posts() ) : the_post(); ?>
-	  	<section class="contenido-post">
-		    <h1><?php the_title(); ?></h1>
-		    <time datatime="<?php the_time('Y-m-j'); ?>"><?php the_time('j F, Y'); ?></time>
-		    <?php the_content(); ?>
-		    <address>Por <?php the_author_posts_link() ?></address>
-	  	</section>
-		<?php else : ?>
-	  	<p><?php _e('Ups!, esta entrada no existe.'); ?></p>
-		<?php endif; ?>
+		<div class="row">
+
+			<?php if ( have_posts() ) : the_post(); ?>
+
+		  	<div class="contenido-post col-md-10 col-md-offset-1 col-xs-12">
+			    <h1><?php the_title(); ?></h1>
+			    <time datatime="<?php the_time('Y-m-j'); ?>"><?php the_time('j F, Y'); ?></time>
+			    <?php the_content(); ?>
+			    <address>Por <?php the_author_posts_link() ?></address>
+		  	</div>
+
+			<?php else : ?>
+		  	<p><?php _e('Ups!, esta entrada no existe.'); ?></p>
+			<?php endif; ?>
+		</div>
+
 	</div>
 </section>
 <!-- Archivo de barra lateral por defecto -->

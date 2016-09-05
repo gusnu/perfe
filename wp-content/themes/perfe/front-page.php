@@ -14,36 +14,85 @@ Template Name: home
   </div>
 </section>
 
+
+<?php
+ global $post;
+ $myposts = get_posts('numberposts=5&category=1');
+ foreach($myposts as $post) :
+ ?>
+ <?php the_title(); ?>
+ <?php the_content(); ?>
+ <?php endforeach; ?>
+
 <!-- Contenido de página de inicio -->
 <section class="container-fluid">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="col-md-10 col-md-offset-1 col-xs-12 full">
-          <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/work_03.jpg" class="img-responsive img-full">
-          <div class="titulo"><h2>CCPLM</h2></div>
-          <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
-          <div class="ano"><p>Año<br><span>2016</span></p></div>
+     <div class="col-md-12 work">
+          <div class="col-md-10 col-md-offset-1 col-xs-12 full">
+            <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/work_03.jpg" class="img-responsive img-full">
+            <div class="titulo"><h2>CCPLM</h2></div>
+            <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
+            <div class="ano"><p>Año<br><span>2016</span></p></div>
+          </div>
         </div>
-      </div>
-    </div>
+         
+      
+        <div class="col-md-10 col-md-offset-1">
+          <div class="col-md-6 col-xs-12 mitad">
+            <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/work_06.jpg" class="img-responsive img-full">
+            <div class="titulo"><h2>CCPLM</h2></div>
+              <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
+              <div class="ano"><p>Año<br><span>2016</span></p></div>
+          </div>
+        <div class="col-md-6 col-xs-12 mitad">
+          <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/work_08.jpg" class="img-responsive img-full">
+          <div class="titulo"><h2>CCPLM</h2></div>
+            <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
+            <div class="ano"><p>Año<br><span>2016</span></p></div>
+        </div>
+        </div>
 
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-      <div class="col-md-6 col-xs-12 mitad">
-        <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/work_06.jpg" class="img-responsive img-full">
-        <div class="titulo"><h2>CCPLM</h2></div>
-          <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
-          <div class="ano"><p>Año<br><span>2016</span></p></div>
+        <div class="col-md-12">
+          <div class="col-md-10 col-md-offset-1 col-xs-12 full">
+            <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/PERFE-WEB-Home_03.png" class="img-responsive img-full">
+            <div class="titulo"><h2>CCPLM</h2></div>
+            <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
+            <div class="ano"><p>Año<br><span>2016</span></p></div>
+          </div>
+        </div>
+     
+      
+        <div class="col-md-10 col-md-offset-1">
+          <div class="col-md-6 col-xs-12 mitad">
+            <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/PERFE-WEB-Home_06.png" class="img-responsive img-full">
+            <div class="titulo"><h2>CCPLM</h2></div>
+              <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
+              <div class="ano"><p>Año<br><span>2016</span></p></div>
+          </div>
+          
+
+        <div class="col-md-6 col-xs-12 mitad">
+          <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/PERFE-WEB-Home_08.png" class="img-responsive img-full">
+          <div class="titulo"><h2>CCPLM</h2></div>
+            <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
+            <div class="ano"><p>Año<br><span>2016</span></p></div>
+        </div>
+        </div>
+       
+
+          <div class="col-md-12">
+          <div class="col-md-10 col-md-offset-1 col-xs-12 full">
+            <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/PERFE-WEB-Home_12.png" class="img-responsive img-full">
+            <div class="titulo"><h2>CCPLM</h2></div>
+            <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
+            <div class="ano"><p>Año<br><span>2016</span></p></div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-md-6 col-xs-12 mitad">
-        <img src="<?php bloginfo('url');?>/wp-content/themes/perfe/images/work_08.jpg" class="img-responsive img-full">
-        <div class="titulo"><h2>CCPLM</h2></div>
-          <div class="sub"><h3>6º Festival de la Cineteca Nacional</h3></div>
-          <div class="ano"><p>Año<br><span>2016</span></p></div>
-      </div>
-      </div>
-    </div>
+
+   
   </div>
 </section>
 
